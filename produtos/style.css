@@ -1,0 +1,15 @@
+body {
+  background-color: #fdf4f7;
+}
+nav {
+  background-color: #ff579a;
+}
+#title_initial {
+  color: #cd165f;
+}
+.btn {
+  transition: .2s;
+}
+.btn:hover{
+  filter: brightness(1.3);
+}

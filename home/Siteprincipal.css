@@ -1,0 +1,69 @@
+nav {
+  background-color: #ff579a;
+}
+
+.slider {
+  position: relative;
+  width: 80%;
+  height: 500px;
+  overflow: hidden;
+  display: block;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.slide {
+  display: none;
+  width: 100%;
+}
+
+.slide:first-child {
+  display: block;
+}
+
+.prev,
+.next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  display: inline-block;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  transition: 0.6s ease;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.next {
+  right: 0;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.prev.disabled,
+.next.disabled {
+  opacity: 0.5;
+  cursor: default;
+  pointer-events: none;
+}
+.Bem-vindo {
+  display: block;
+  text-align: center;
+  margin: 15px;
+  font-size: large;
+  font-size: 2em;
+  font-weight: bold;
+  background: -webkit-linear-gradient(pink, hotpink, deeppink, pink);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: glitter 1s ease-in-out infinite;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}

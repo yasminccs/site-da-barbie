@@ -1,0 +1,74 @@
+nav {
+  background-color: #ff579a;
+}
+
+  .glitter-text {
+    font-size: 3em;
+    font-weight: bold;
+    text-align: center;
+    background: -webkit-linear-gradient(pink, rgb(204, 76, 140), deeppink, pink);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: glitter 1s ease-in-out infinite;
+  }
+  
+  @keyframes glitter {
+    0% {background-position: 0 0;}
+    50% {background-position: 400% 0;}
+    100% {background-position: 0 0;}
+  }
+  .imagemcriadores {
+    display: block;
+    margin: auto;
+    text-align: center;
+  }
+
+.imagemcriadores {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+}
+
+.imagemcriadores img {
+    border: 10px solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(to right, #FF69B4, #FFC0CB, #FF1493, #FFB6C1, #FF00FF, #FF69B4, #FFC0CB);
+    border-image-repeat: round;
+  }
+
+  
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  p {
+    font-size: 120%;
+    padding: 10px;
+  }
+
+  .Imagem-1-da-Primeira-Barbie {
+    width: 50%; 
+    animation: slide 10s infinite;
+  }
+  
+  @keyframes slide {
+    0% {
+      transform: translateX(0); 
+    }
+    50% {
+      transform: translateX(100%); 
+    }
+    100% {
+      transform: translateX(0); 
+    }
+  }
+  
+p
+{
+  text-align: justify;
+  margin: 10px;
+  font-style: oblique;
+  font-size: 18px;
+}
