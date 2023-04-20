@@ -47,7 +47,7 @@
         $servername = "localhost";
         $username = "root";
         $password = "root";
-        $dbname = "companybarbie";
+        $dbname = "barbiecompany";
 
         $conn = new mysqli($servername, $username, $password, $dbname);
         $sql = "SELECT * FROM novidades";
