@@ -1,2 +1,2 @@
-# site-da-barbie
-Company Website - College Group Work
+# website-barbie
+Company Website Barbie Mattel - College Group Work
